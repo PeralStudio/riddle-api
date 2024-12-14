@@ -725,24 +725,6 @@ module.exports = [
             "Snowflakes form in dark clouds, disappear in sunlight, dance in the wind, and fall during snowstorms."
     },
     {
-        category: "Horticulture",
-        riddle: "I sleep in a bed but never rest, I have a head but never think, I have no legs but still stand. What am I?",
-        answer: "A garden plant",
-        difficulty: "Medium",
-        hint: "Grows in soil.",
-        explanation:
-            "A plant grows in a flower bed, has a head (flower), and stands upright without legs."
-    },
-    {
-        category: "Neuroscience",
-        riddle: "I fire without bullets, network without computers, and store without space. What am I?",
-        answer: "A neuron",
-        difficulty: "Hard",
-        hint: "Brain cell.",
-        explanation:
-            "Neurons fire electrical signals, form neural networks, and store information in synapses."
-    },
-    {
         category: "Anthropology",
         riddle: "I'm written in bones, spoken through stones, and preserved in homes of the past. What am I?",
         answer: "Human history",
@@ -786,5 +768,221 @@ module.exports = [
         hint: "Digital security.",
         explanation:
             "Encryption codes hide messages in plain text, communicate secretly, and use mathematical algorithms for protection."
+    },
+    {
+        category: "Marine Biology",
+        riddle: "I dance in currents, glow in the deep, change my colors but have no paint. What am I?",
+        answer: "An octopus",
+        difficulty: "Medium",
+        hint: "Master of disguise.",
+        explanation:
+            "Octopi can change their color and pattern, move gracefully in water currents, and some species are bioluminescent."
+    },
+    {
+        category: "Marine Biology",
+        riddle: "I build but I'm not a constructor, I filter but I'm not a machine, I grow but I'm not a plant. What am I?",
+        answer: "A coral",
+        difficulty: "Medium",
+        hint: "Ocean architect.",
+        explanation:
+            "Corals build reefs, filter feed from the water, and grow over time forming large structures."
+    },
+    {
+        category: "Cryptography",
+        riddle: "I'm a key that opens no door, a lock that stops no thief, a secret that everyone knows. What am I?",
+        answer: "A public key",
+        difficulty: "Hard",
+        hint: "Digital security.",
+        explanation:
+            "A public key in cryptography is openly shared but crucial for secure communication."
+    },
+    {
+        category: "Cryptography",
+        riddle: "I transform but don't change shape, I scramble but stay organized, I protect but don't use force. What am I?",
+        answer: "A hash function",
+        difficulty: "Hard",
+        hint: "Digital fingerprint.",
+        explanation:
+            "A hash function transforms data into a fixed-size value, scrambling it in a deterministic way for security."
+    },
+    {
+        category: "Quantum Physics",
+        riddle: "I spin up and down but stay in place, I pair but remain distant, I tunnel through walls but leave no hole. What am I?",
+        answer: "An electron",
+        difficulty: "Hard",
+        hint: "Subatomic particle.",
+        explanation:
+            "Electrons have spin states, can be quantum entangled, and exhibit quantum tunneling through barriers."
+    },
+    {
+        category: "Quantum Physics",
+        riddle: "I'm certain about uncertainty, I collapse when observed, I exist in many states at once. What am I?",
+        answer: "Wave function",
+        difficulty: "Hard",
+        hint: "Quantum state.",
+        explanation:
+            "A wave function describes quantum states, exhibits uncertainty principle, and collapses upon measurement."
+    },
+    {
+        category: "Linguistics",
+        riddle: "I change with time but keep my roots, I branch but don't grow leaves, I'm living but not alive. What am I?",
+        answer: "Language family",
+        difficulty: "Hard",
+        hint: "Evolution of communication.",
+        explanation:
+            "Language families show how languages evolve from common roots, branching into new languages over time."
+    },
+    {
+        category: "Linguistics",
+        riddle: "I flow but I'm not water, I have patterns but I'm not art, I have rhythm but I'm not music. What am I?",
+        answer: "Speech",
+        difficulty: "Medium",
+        hint: "Verbal expression.",
+        explanation:
+            "Speech flows naturally, follows linguistic patterns, and has rhythmic intonation."
+    },
+    {
+        category: "Time",
+        riddle: "I run without legs, pass without moving, and mark without leaving traces. What am I?",
+        answer: "Time",
+        difficulty: "Medium",
+        hint: "Constant progression.",
+        explanation:
+            "Time continuously moves forward, passes by, and marks events without physical traces."
+    },
+    {
+        category: "Time",
+        riddle: "I'm always ahead but never behind, I exist but can't be touched, I'm lost but never found. What am I?",
+        answer: "The future",
+        difficulty: "Medium",
+        hint: "What's to come.",
+        explanation:
+            "The future is always ahead of us, exists as a concept but isn't tangible, and once it arrives becomes the present."
+    },
+    {
+        category: "Food",
+        riddle: "I'm born in water but die when wet, I strengthen with heat but flee from fire. What am I?",
+        answer: "Flour",
+        difficulty: "Medium",
+        hint: "Baking essential.",
+        explanation:
+            "Flour is made from wheat grown with water, but becomes paste when wet, and can be baked but burns in fire."
+    },
+    {
+        category: "Food",
+        riddle: "I'm cut without bleeding, crushed without breaking, and mixed without changing. What am I?",
+        answer: "Dough",
+        difficulty: "Easy",
+        hint: "Baking base.",
+        explanation:
+            "Dough can be cut into pieces, crushed and kneaded, and mixed with ingredients while remaining dough."
+    },
+    {
+        category: "Space",
+        riddle: "I'm a giant of gas but have rings of stone, I float in darkness but am never alone. What am I?",
+        answer: "Saturn",
+        difficulty: "Medium",
+        hint: "Ringed planet.",
+        explanation:
+            "Saturn is a gas giant with distinctive rings made of ice and rock, orbiting the Sun with other planets."
+    },
+    {
+        category: "Space",
+        riddle: "I'm closest to home but furthest from touch, I change every night but stay the same. What am I?",
+        answer: "The Moon",
+        difficulty: "Easy",
+        hint: "Earth's companion.",
+        explanation:
+            "The Moon is Earth's closest celestial neighbor, appears different through its phases but remains unchanged."
+    },
+    {
+        category: "Animal",
+        riddle: "I sleep upside down, see with sound, and fly without feathers. What am I?",
+        answer: "A bat",
+        difficulty: "Medium",
+        hint: "Nocturnal flyer.",
+        explanation:
+            "Bats hang upside down to rest, use echolocation to navigate, and have wings made of skin instead of feathers."
+    },
+    {
+        category: "Animal",
+        riddle: "I'm born in the water, but live on the land, I start as a swimmer but end up with legs. What am I?",
+        answer: "A frog",
+        difficulty: "Easy",
+        hint: "Amphibian life.",
+        explanation:
+            "Frogs begin life as tadpoles in water, then metamorphose to develop legs and live partially on land."
+    },
+    {
+        category: "Technology",
+        riddle: "I process without thinking, remember without learning, and speak without knowing. What am I?",
+        answer: "A computer",
+        difficulty: "Medium",
+        hint: "Digital brain.",
+        explanation:
+            "Computers process data mechanically, store information without understanding, and output without comprehension."
+    },
+    {
+        category: "Technology",
+        riddle: "I have a face that doesn't frown, hands that don't feel, and a brain made of silicon. What am I?",
+        answer: "A smartphone",
+        difficulty: "Medium",
+        hint: "Modern device.",
+        explanation:
+            "Smartphones have a screen (face), touch interface (hands), and processor (silicon brain)."
+    },
+    {
+        category: "Art",
+        riddle: "I capture light without a camera, tell stories without words, and move hearts without touching. What am I?",
+        answer: "A painting",
+        difficulty: "Medium",
+        hint: "Visual creation.",
+        explanation:
+            "Paintings capture and reflect light, convey narratives visually, and evoke emotions through art."
+    },
+    {
+        category: "Art",
+        riddle: "I'm shaped by hands but not by tools, flow without water, and harden with time. What am I?",
+        answer: "Clay sculpture",
+        difficulty: "Medium",
+        hint: "Moldable medium.",
+        explanation:
+            "Clay sculptures are shaped by hand, have flowing forms, and harden when dried or fired."
+    },
+    {
+        category: "Sports",
+        riddle: "I bounce without rubber, fly without wings, and score without numbers. What am I?",
+        answer: "A basketball",
+        difficulty: "Easy",
+        hint: "Court game.",
+        explanation:
+            "A basketball bounces due to air pressure, flies through the air when shot, and scores points in the game."
+    },
+    {
+        category: "Sports",
+        riddle: "I'm swung but not a door, gripped but not a handle, and aimed but not a gun. What am I?",
+        answer: "A golf club",
+        difficulty: "Medium",
+        hint: "Course equipment.",
+        explanation:
+            "Golf clubs are swung to hit balls, require proper grip, and are aimed at targets on the course."
+    },
+    {
+        category: "Music",
+        riddle: "I have strings but am not a puppet, a neck but not a bottle, and frets but no worries. What am I?",
+        answer: "A guitar",
+        difficulty: "Medium",
+        hint: "String instrument.",
+        explanation:
+            "Guitars have strings for playing, a neck for fretting, and frets for note positions."
+    },
+    {
+        category: "Music",
+        riddle: "I'm black and white but not a penguin, I have keys but no locks, I make sounds but can't speak. What am I?",
+        answer: "A piano",
+        difficulty: "Easy",
+        hint: "Musical keyboard.",
+        explanation:
+            "Pianos have black and white keys that produce musical sounds but don't actually speak."
     }
 ];
