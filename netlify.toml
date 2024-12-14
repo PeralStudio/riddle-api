@@ -1,0 +1,19 @@
+[[redirects]]
+  from = "/categories"
+  to = "/.netlify/functions/getCategories"
+  status = 200
+
+[[redirects]]
+  from = "/random-riddle"
+  to = "/.netlify/functions/getRiddleRandom"
+  status = 200
+
+[[redirects]]
+  from = "/riddle-by-category"
+  to = "/.netlify/functions/getRiddleByCategory"
+  status = 200  
+
+[[redirects]]
+  from = "/health"
+  to = "/.netlify/functions/health"
+  status = 200
