@@ -22,11 +22,15 @@ exports.handler = async (event) => {
         };
     }
 
+    //get one random riddle from the filtered array
+    const randomIndex = Math.floor(Math.random() * filteredRiddle.length);
+    const randomRiddle = filteredRiddle[randomIndex];
+
     return {
         statusCode: 200,
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(filteredRiddle)
+        body: JSON.stringify(randomRiddle)
     };
 };
